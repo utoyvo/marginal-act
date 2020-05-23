@@ -7,98 +7,145 @@ $$ |  $$ |  $$ |$$\ $$ |  $$ |$$ |  $$ |  \$$$  /  $$ |  $$ |
 \$$$$$$  |  \$$$$  |\$$$$$$  |\$$$$$$$ |   \$  /   \$$$$$$  |
  \______/    \____/  \______/  \____$$ |    \_/     \______/
                               $$\   $$ |
-                              \$$$$$$  |
-                               \______/
-@name      : Marginal Act
-@version   : 1.0.0
-@url       : https://github.com/utoyvo/marginal-act/
-@author    : Utoyvo (Oleksandr Klochko)
-@email     : utoyvo@protonmail.com
-@link      : http://utoyvo.xyz/
-@license   : MIT
-@copyright : 2019 -->
+utoyvo(at)protonmail.com      \$$$$$$  |
+https://github.com/utoyvo      \______/
+-->
 <!doctype html>
 <html lang="en-US">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<title>MARGINAL ACT</title>
+	<!--[if lt IE 9]>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+
+	<!-- dns prefetch -->
+	<meta http-equiv="x-dns-prefetch-control" content="on">
+	<link rel="dns-prefetch" href="//marginalact.indie.af">
+	<link rel="dns-prefetch" href="//www.googletagmanager.com">
+
+	<title>Marginal Act</title>
 	<meta name="description" content="Marginal act is an independent game studio based in Kharkiv, Ukraine, founded in 2017. Here you can find info about our games, which are different by gameplay (roguelike, adventure, survival-horror, simulator) and visualization (collage, pixel-art, pixel-collage) but similar by strong experimental nature.">
-	<meta name="keywords" content="marginal act, studio, indie, games, development, experimental nature, pixel-art">
+	<meta name="keywords"    content="marginal act, studio, indie, games, development, experimental nature, pixel-art">
+	<meta name="robots"      content="follow">
 
-	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<!-- open graph protocol -->
+	<meta property="og:type"         content="website">
+	<meta property="og:url"          content="http://marginalact.indie.af">
+	<meta property="og:site_name"    content="Marginal Act">
+	<meta property="og:title"        content="Marginal Act">
+	<meta property="og:description"  content="Marginal act is an independent game studio based in Kharkiv, Ukraine, founded in 2017. Here you can find info about our games, which are different by gameplay (roguelike, adventure, survival-horror, simulator) and visualization (collage, pixel-art, pixel-collage) but similar by strong experimental nature.">
+	<meta property="og:image"        content="public/assets/img/covers/cover-1200x675.jpg">
+	<meta property="og:image:alt"    content="Marginal Act">
+	<meta property="og:image:width"  content="1200">
+	<meta property="og:image:height" content="675">
+	<meta property="og:locale"       content="en-US">
+	<!-- // facebook -->
+	<meta property="fb:admins" content="000000000000000">
+	<meta property="fb:app_id" content="000000000000000">
+	<!-- // twitter -->
+	<meta name="twitter:card"        content="summary_large_image">
+	<meta name="twitter:site"        content="Marginal Act">
+	<meta name="twitter:title"       content="Marginal Act">
+	<meta name="twitter:description" content="Marginal act is an independent game studio based in Kharkiv, Ukraine, founded in 2017. Here you can find info about our games, which are different by gameplay (roguelike, adventure, survival-horror, simulator) and visualization (collage, pixel-art, pixel-collage) but similar by strong experimental nature.">
+	<meta name="twitter:image:src"   content="public/assets/img/covers/cover-1200x675.jpg">
+	<meta name="twitter:domain"      content="marginalact.indie.af">
+	<meta name="twitter:creator"     content="@utoyvo">
+	<!-- // google -->
+	<meta itemprop="url"                  content="http://marginalact.indie.af">
+	<meta itemprop="name"                 content="Marginal Act">
+	<meta itemprop="description"          content="Marginal act is an independent game studio based in Kharkiv, Ukraine, founded in 2017. Here you can find info about our games, which are different by gameplay (roguelike, adventure, survival-horror, simulator) and visualization (collage, pixel-art, pixel-collage) but similar by strong experimental nature.">
+	<meta itemprop="image"                content="public/assets/img/covers/cover-1200x675.jpg">
+	<meta name="google-site-verification" content="">
 
+	<!-- style -->
+	<link rel="stylesheet" type="text/css" href="public/assets/css/style.css">
+
+	<!-- icons -->
+	<link rel="icon" type="image/png" href="public/assets/img/icons/icon-16x16.png"   sizes="16x16">
+	<link rel="icon" type="image/png" href="public/assets/img/icons/icon-32x32.png"   sizes="32x32">
+	<link rel="icon" type="image/png" href="public/assets/img/icons/icon-96x96.png"   sizes="96x96">
+	<link rel="icon" type="image/png" href="public/assets/img/icons/icon-144x144.png" sizes="144x144">
+	<link rel="icon" type="image/png" href="public/assets/img/icons/icon-192x192.png" sizes="192x192">
+	<link rel="apple-touch-icon" type="image/png" href="public/assets/img/icons/icon-60x60.png"   sizes="60x60">
+	<link rel="apple-touch-icon" type="image/png" href="public/assets/img/icons/icon-76x76.png"   sizes="76x76">
+	<link rel="apple-touch-icon" type="image/png" href="public/assets/img/icons/icon-120x120.png" sizes="120x120">
+	<link rel="apple-touch-icon" type="image/png" href="public/assets/img/icons/icon-152x152.png" sizes="152x152">
+	<link rel="apple-touch-icon" type="image/png" href="public/assets/img/icons/icon-180x180.png" sizes="180x180">
 	<link rel="icon" type="image/png" href="favicon.png">
+
+	<!-- google analytics -->
+	<script src=""></script>
+	<script></script>
 </head>
 
 <body>
 
-	<div class="wrapper">
-		<header class="masthead marquee" data-speed="64">
-			<h1>Marginal Act</h1>
-		</header><!-- /.header -->
+<div class="wrapper">
+	<header class="masthead marquee" data-speed="64">
+		<h1>Marginal Act</h1>
+	</header><!-- /.header -->
 
-		<main class="content">
-			<section class="entries">
-				<script class="entries-template" type="x-handlebars-template">​
-					{{#each this}}
-					<article data-index="{{id}}" class="entry btn" style="top:{{position.y}}%; left:{{position.x}}%">
-						<figure>
-							<img src="{{media.cover}}" alt="{{name}}">
-							<figcaption class="pulse">
-								<h2>{{name}}</h2>
-								<span>?</span>
-							</figcaption>
-						</figure>
-					</article>
-					{{/each}}
-				</script>
-			</section><!-- //.entries -->
+	<main class="content">
+		<section class="entries">
+			<script class="entries-template" type="x-handlebars-template">​
+				{{#each this}}
+				<article data-index="{{id}}" class="entry btn" style="top:{{position.y}}%; left:{{position.x}}%">
+					<figure>
+						<img src="{{media.cover}}" alt="{{name}}">
+						<figcaption class="pulse">
+							<h2>{{name}}</h2>
+							<span>?</span>
+						</figcaption>
+					</figure>
+				</article>
+				{{/each}}
+			</script>
+		</section><!-- //.entries -->
 
-			<section class="single">
-				<div id="modal" class="modal">
-					<section class="modal-content">
-						<header class="modal-header">
-							<h2></h2>
-							<time datetime=""></time>
-						</header>
+		<section class="single">
+			<div id="modal" class="modal">
+				<section class="modal-content">
+					<header class="modal-header">
+						<h2></h2>
+						<time datetime=""></time>
+					</header>
 
-						<div class="modal-body">
-							<iframe id="player" width="100%" height="360" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-							<p class="short"></p>
-							<p class="expanded"></p>
-						</div>
+					<div class="modal-body">
+						<iframe id="player" width="100%" height="360" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<p class="short"></p>
+						<p class="expanded"></p>
+					</div>
 
-						<footer class="modal-footer">
-							<a class="button" target="_blank"></a>
-						</footer>
-					</section>
-				</div><!-- #modal -->
-			</section><!-- //.single -->
+					<footer class="modal-footer">
+						<a class="button" target="_blank"></a>
+					</footer>
+				</section>
+			</div><!-- #modal -->
+		</section><!-- //.single -->
 
-			<section class="error">
-				<h3>Something went wrong!</h3>
-			</section><!-- //.error -->
-		</main><!-- /.content -->
-	</div><!-- .wrapper -->
+		<section class="error">
+			<h3>Something went wrong!</h3>
+		</section><!-- //.error -->
+	</main><!-- /.content -->
+</div><!-- .wrapper -->
 
-	<div class="scene">
-		<div class="layer" data-depth=".4"><img src="./assets/img/bg/bg1.png"></div>
-		<div class="layer" data-depth="0"><img src="./assets/img/bg/bg4.png"></div>
-		<div class="layer" data-depth=".2"><img src="./assets/img/bg/bg3.png"></div>
-		<div class="layer" data-depth="6"><img src="./assets/img/bg/bg2.png"></div>
-	</div><!-- /.scene -->
+<div class="scene">
+	<div class="layer" data-depth=".4"><img src="public/assets/img/bg/bg1.png"></div>
+	<div class="layer" data-depth="0"><img src="public/assets/img/bg/bg4.png"></div>
+	<div class="layer" data-depth=".2"><img src="public/assets/img/bg/bg3.png"></div>
+	<div class="layer" data-depth="6"><img src="public/assets/img/bg/bg2.png"></div>
+</div><!-- .scene -->
 
-	<div class="loader">
-		<img src="./assets/img/loader/loader.gif" alt="eye">
-	</div><!-- /.preloader -->
+<div class="loader">
+	<img src="public/assets/img/loader/loader.gif" alt="eye">
+</div><!-- .preloader -->
 
-	<!-- scripts -->
-	<script src="./assets/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="./assets/libs/jquery-ui/1.12.1/jquery-ui.min.js"></script>
-	<script src="./assets/libs/handlebars/2.0.0/handlebars.min.js"></script>
-	<script src="./assets/js/main.js"></script>
+<!-- scripts -->
+<script src="public/assets/libs/jquery-1.12.4.min.js"></script>
+<script src="public/assets/libs/jquery-ui-1.12.1.min.js"></script>
+<script src="public/assets/libs/handlebars-2.0.0.min.js"></script>
+<script src="public/assets/js/app.js"></script>
 
 </body></html>

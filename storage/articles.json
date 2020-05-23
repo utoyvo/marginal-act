@@ -8,7 +8,7 @@
 		"expanded" : "The Line is a rogue-like / dungeon crawler / survival with a turn-based combat system. The main object is to stand out the long line for resettlement from the oppressive east segment of the city. The game begins when authorities decide to show a gesture of goodwill and move people from the rotting district to new buildings."
 	},
 	"media" : {
-		"cover"   : "assets/img/games/the_line.png",
+		"cover"   : "public/uploads/the_line.png",
 		"youtube" : "https://www.youtube.com/embed/Pd1LiBaLuo0"
 	},
 	"button" : {
@@ -30,7 +30,7 @@
 		"expanded" : "Blind Boris is a survival horror about a blind person. The character arrives to the hospice and 2 weeks later strange things start to happen. Staff disappears, terrible sounds are heard outside, exit doors are tightly locked but aggressive visitors enter the building."
 	},
 	"media" : {
-		"cover"   : "assets/img/games/blind_boris.png",
+		"cover"   : "public/uploads/blind_boris.png",
 		"youtube" : "https://www.youtube.com/embed/FGn35JVhzaA"
 	},
 	"button" : {
@@ -52,7 +52,7 @@
 		"expanded" : "Marginal act takes place in the middle of a global extinction, taking down half of a huge metropolis. Time inside a small district stopped by the action of the mechanism, hidden inside the theater in the middle of the district. Our character worked as illuminator in the theater. The player will have to solve the game situation, where all citizens are caught in a trap. People can’t leave the district, but they will not be able to live long in stoppeed time."
 	},
 	"media" : {
-		"cover"   : "assets/img/games/marginal_act.png",
+		"cover"   : "public/uploads/marginal_act.png",
 		"youtube" : "https://www.youtube.com/embed/yxdD74kiOO8"
 	},
 	"button" : {
@@ -74,7 +74,7 @@
 		"expanded" : "That's what you'll hear all day after playing Need a packet - horror-simulator about supermarket cashier, who is gradually losing her mind because of everyday routine work. She starts to feel that the cash register is turning into a medieval tower, while dragons and chimeras are flying around and trying to kill Molly. Events take place on the background of a garbage crisis in the city. Grounds are rotting, recycling fabrics are overcrowded, water is poisoned and citizens start to disappear in the local forests."
 	},
 	"media" : {
-		"cover"   : "assets/img/games/need_a_packet.png",
+		"cover"   : "public/uploads/need_a_packet.png",
 		"youtube" : "https://www.youtube.com/embed/oCozDM5GJ0k"
 	},
 	"button" : {

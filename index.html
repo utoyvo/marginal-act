@@ -7,8 +7,8 @@ $$ |  $$ |  $$ |$$\ $$ |  $$ |$$ |  $$ |  \$$$  /  $$ |  $$ |
 \$$$$$$  |  \$$$$  |\$$$$$$  |\$$$$$$$ |   \$  /   \$$$$$$  |
  \______/    \____/  \______/  \____$$ |    \_/     \______/
                               $$\   $$ |
-utoyvo(at)protonmail.com      \$$$$$$  |
-https://github.com/utoyvo      \______/
+https://utoyvo.github.io      \$$$$$$  |
+utoyvo(at)protonmail(dot)com   \______/
 -->
 <!doctype html>
 <html lang="en-US">
@@ -63,16 +63,16 @@ https://github.com/utoyvo      \______/
 	<link rel="stylesheet" type="text/css" href="public/assets/css/style.css">
 
 	<!-- icons -->
-	<link rel="icon" type="image/png" href="public/assets/img/icons/icon-16x16.png"   sizes="16x16">
-	<link rel="icon" type="image/png" href="public/assets/img/icons/icon-32x32.png"   sizes="32x32">
-	<link rel="icon" type="image/png" href="public/assets/img/icons/icon-96x96.png"   sizes="96x96">
-	<link rel="icon" type="image/png" href="public/assets/img/icons/icon-144x144.png" sizes="144x144">
-	<link rel="icon" type="image/png" href="public/assets/img/icons/icon-192x192.png" sizes="192x192">
-	<link rel="apple-touch-icon" type="image/png" href="public/assets/img/icons/icon-60x60.png"   sizes="60x60">
-	<link rel="apple-touch-icon" type="image/png" href="public/assets/img/icons/icon-76x76.png"   sizes="76x76">
-	<link rel="apple-touch-icon" type="image/png" href="public/assets/img/icons/icon-120x120.png" sizes="120x120">
-	<link rel="apple-touch-icon" type="image/png" href="public/assets/img/icons/icon-152x152.png" sizes="152x152">
-	<link rel="apple-touch-icon" type="image/png" href="public/assets/img/icons/icon-180x180.png" sizes="180x180">
+	<link rel="icon" type="image/png" href="http://marginalact.indie.af/public/assets/img/icons/icon-16x16.png"   sizes="16x16">
+	<link rel="icon" type="image/png" href="http://marginalact.indie.af/public/assets/img/icons/icon-32x32.png"   sizes="32x32">
+	<link rel="icon" type="image/png" href="http://marginalact.indie.af/public/assets/img/icons/icon-96x96.png"   sizes="96x96">
+	<link rel="icon" type="image/png" href="http://marginalact.indie.af/public/assets/img/icons/icon-144x144.png" sizes="144x144">
+	<link rel="icon" type="image/png" href="http://marginalact.indie.af/public/assets/img/icons/icon-192x192.png" sizes="192x192">
+	<link rel="apple-touch-icon" type="image/png" href="http://marginalact.indie.af/public/assets/img/icons/icon-60x60.png"   sizes="60x60">
+	<link rel="apple-touch-icon" type="image/png" href="http://marginalact.indie.af/public/assets/img/icons/icon-76x76.png"   sizes="76x76">
+	<link rel="apple-touch-icon" type="image/png" href="http://marginalact.indie.af/public/assets/img/icons/icon-120x120.png" sizes="120x120">
+	<link rel="apple-touch-icon" type="image/png" href="http://marginalact.indie.af/public/assets/img/icons/icon-152x152.png" sizes="152x152">
+	<link rel="apple-touch-icon" type="image/png" href="http://marginalact.indie.af/public/assets/img/icons/icon-180x180.png" sizes="180x180">
 	<link rel="icon" type="image/png" href="favicon.png">
 
 	<!-- google analytics -->
@@ -89,19 +89,6 @@ https://github.com/utoyvo      \______/
 
 	<main class="content">
 		<section class="entries">
-			<script class="entries-template" type="x-handlebars-template">​
-				{{#each this}}
-				<article data-index="{{id}}" class="entry btn" style="top:{{position.y}}%; left:{{position.x}}%">
-					<figure>
-						<img src="{{media.cover}}" alt="{{name}}">
-						<figcaption class="pulse">
-							<h2>{{name}}</h2>
-							<span>?</span>
-						</figcaption>
-					</figure>
-				</article>
-				{{/each}}
-			</script>
 		</section><!-- //.entries -->
 
 		<section class="single">
@@ -147,5 +134,20 @@ https://github.com/utoyvo      \______/
 <script src="public/assets/libs/jquery-ui-1.12.1.min.js"></script>
 <script src="public/assets/libs/handlebars-2.0.0.min.js"></script>
 <script src="public/assets/js/app.js"></script>
+
+<!-- template -->
+<script class="entries-template" type="x-handlebars-template">​
+{{#each this}}
+<article data-index="{{id}}" class="entry btn" style="top:{{position.y}}%; left:{{position.x}}%">
+	<figure>
+		<img src="{{media.cover}}" alt="{{name}}">
+		<figcaption class="pulse">
+			<h2>{{name}}</h2>
+			<span>?</span>
+		</figcaption>
+	</figure>
+</article>
+{{/each}}
+</script>
 
 </body></html>

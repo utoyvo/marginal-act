@@ -1,6 +1,6 @@
 # Marginal Act
 
-Marginal act is an independent game studio based in Kharkiv, Ukraine, founded in 2017. Here you can find info about our games, which are different by gameplay (roguelike, adventure, survival-horror, simulator) and visualization (collage, pixel-art, pixel-collage) but similar by strong experimental nature.
+Marginal act is an independent game studio based in Kharkiv. Games are different by gameplay and visualization but similar by strong experimental nature.
 
 ![Marginal Act](screenshot.png)
 

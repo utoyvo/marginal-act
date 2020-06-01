@@ -2,7 +2,7 @@
 
 Marginal act is an independent game studio based in Kharkiv. Games are different by gameplay and visualization but similar by strong experimental nature.
 
-![Marginal Act](screenshot.png)
+![Marginal Act](screenshot.jpg)
 
 ## STRUCTURE
 ```
